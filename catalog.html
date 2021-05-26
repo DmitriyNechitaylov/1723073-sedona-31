@@ -32,22 +32,29 @@
             <legend>Инфраструктура:</legend>
             <ul>
               <li>
-                <input type="checkbox" name="pool" id="pool-id" checked /><label
-                  for="pool-id"
-                  >Бассейн</label
-                >
+                <input
+                  type="checkbox"
+                  name="Infrastructure"
+                  id="pool"
+                  value="pool"
+                  checked
+                /><label for="pool">Бассейн</label>
               </li>
               <li>
-                <input type="checkbox" name="parking" id="parking-id" /><label
-                  for="parking-id"
-                  >Парковка</label
-                >
+                <input
+                  type="checkbox"
+                  name="Infrastructure"
+                  id="parking"
+                  value="parking"
+                /><label for="parking">Парковка</label>
               </li>
               <li>
-                <input type="checkbox" name="Wi-Fi" id="Wi-Fi-id" /><label
-                  for="Wi-Fi-id"
-                  >Wi-Fi</label
-                >
+                <input
+                  type="checkbox"
+                  name="Infrastructure"
+                  id="Wi-Fi"
+                  value="Wi-Fi"
+                /><label for="Wi-Fi">Wi-Fi</label>
               </li>
             </ul>
           </fieldset>
@@ -57,26 +64,29 @@
               <li>
                 <input
                   type="checkbox"
-                  name="Hotel"
-                  id="Hotel-id"
+                  name="Type of housing"
+                  id="Hotel"
+                  value="Hotel"
                   checked
-                /><label for="Hotel-id">Гостиница</label>
+                /><label for="Hotel">Гостиница</label>
               </li>
               <li>
                 <input
                   type="checkbox"
-                  name="Motel"
-                  id="Motel-id"
+                  name="Type of housing"
+                  id="Motel"
+                  value="Motel"
                   checked
-                /><label for="Motel-id">Мотель</label>
+                /><label for="Motel">Мотель</label>
               </li>
               <li>
                 <input
                   type="checkbox"
-                  name="Apartments"
-                  id="Apartments-id"
+                  name="Type of housing"
+                  id="Apartments"
+                  value="Apartments"
                   checked
-                /><label for="Apartments-id">Апартаменты</label>
+                /><label for="Apartments">Апартаменты</label>
               </li>
             </ul>
           </fieldset>
@@ -84,12 +94,28 @@
             <legend>Стоимость в сутки, <span>₽:</span></legend>
             <ul>
               <li>
-                <input type="number" name="cost" id="cost-id_1" />
-                <label for="cost-id_1">от 0</label>
+                <input
+                  type="number"
+                  name="cost"
+                  id="min"
+                  value="min"
+                  placeholder="от 0"
+                  min="0"
+                  max="3000"
+                />
+                <label for="min">от 0</label>
               </li>
               <li>
-                <input type="number" name="cost" id="cost-id_2" />
-                <label for="cost-id_2">до 3000</label>
+                <input
+                  type="number"
+                  name="cost"
+                  id="max"
+                  value="max"
+                  placeholder="до 3000"
+                  min="0"
+                  max="3000"
+                />
+                <label for="max">до 3000</label>
               </li>
             </ul>
             <div class="slider"></div>
@@ -108,7 +134,7 @@
         </ul>
         <ul>
           <li>
-            <div class="position_1">
+            <div>
               <img
                 src="https://via.placeholder.com/135x90"
                 alt="Amara Resort & Spa"
@@ -116,17 +142,17 @@
                 height="90"
               />
             </div>
-            <div class="position_2">
+            <div>
               <h4>Amara Resort & Spa</h4>
               <p>Гостиница</p>
               <p>От 4000 ₽</p>
               <a href="#">Подробнее</a>
               <a href="#">Забронировать</a>
             </div>
-            <div class="position_3"><p>Рейтинг: 8,5</p></div>
+            <div><p>Рейтинг: 8,5</p></div>
           </li>
           <li>
-            <div class="position_1">
+            <div>
               <img
                 src="https://via.placeholder.com/135x90"
                 alt="Desert Quail Inn"
@@ -134,17 +160,17 @@
                 height="90"
               />
             </div>
-            <div class="position_2">
+            <div>
               <h4>Desert Quail Inn</h4>
               <p>Мотель</p>
               <p>От 3000 ₽</p>
               <a href="#">Подробнее</a>
               <a href="#">Забронировать</a>
             </div>
-            <div class="position_3"><p>Рейтинг: 8,9</p></div>
+            <div><p>Рейтинг: 8,9</p></div>
           </li>
           <li>
-            <div class="position_1">
+            <div>
               <img
                 src="https://via.placeholder.com/135x90"
                 alt="Villas at Poco Diablo"
@@ -152,14 +178,14 @@
                 height="90"
               />
             </div>
-            <div class="position_2">
+            <div>
               <h4>Villas at Poco Diablo</h4>
               <p>Апартаменты</p>
               <p>От 2000 ₽</p>
               <a href="#">Подробнее</a>
               <a href="#">Забронировать</a>
             </div>
-            <div class="position_3"><p>Рейтинг: 9,2</p></div>
+            <div><p>Рейтинг: 9,2</p></div>
           </li>
         </ul>
       </section>
