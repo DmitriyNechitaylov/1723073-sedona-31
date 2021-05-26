@@ -30,94 +30,72 @@
         <form action="https://echo.htmlacademy.ru/courses" method="get">
           <fieldset>
             <legend>Инфраструктура:</legend>
-            <ul>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Infrastructure"
-                  id="pool"
-                  value="pool"
-                  checked
-                /><label for="pool">Бассейн</label>
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Infrastructure"
-                  id="parking"
-                  value="parking"
-                /><label for="parking">Парковка</label>
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Infrastructure"
-                  id="Wi-Fi"
-                  value="Wi-Fi"
-                /><label for="Wi-Fi">Wi-Fi</label>
-              </li>
-            </ul>
+            <input
+              type="checkbox"
+              name="Infrastructure"
+              id="pool"
+              value="pool"
+              checked
+            /><label for="pool">Бассейн</label>
+            <input
+              type="checkbox"
+              name="Infrastructure"
+              id="parking"
+              value="parking"
+            /><label for="parking">Парковка</label>
+            <input
+              type="checkbox"
+              name="Infrastructure"
+              id="Wi-Fi"
+              value="Wi-Fi"
+            /><label for="Wi-Fi">Wi-Fi</label>
           </fieldset>
           <fieldset>
             <legend>Тип жилья:</legend>
-            <ul>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Type of housing"
-                  id="Hotel"
-                  value="Hotel"
-                  checked
-                /><label for="Hotel">Гостиница</label>
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Type of housing"
-                  id="Motel"
-                  value="Motel"
-                  checked
-                /><label for="Motel">Мотель</label>
-              </li>
-              <li>
-                <input
-                  type="checkbox"
-                  name="Type of housing"
-                  id="Apartments"
-                  value="Apartments"
-                  checked
-                /><label for="Apartments">Апартаменты</label>
-              </li>
-            </ul>
+            <input
+              type="checkbox"
+              name="Type of housing"
+              id="Hotel"
+              value="Hotel"
+              checked
+            /><label for="Hotel">Гостиница</label>
+            <input
+              type="checkbox"
+              name="Type of housing"
+              id="Motel"
+              value="Motel"
+              checked
+            /><label for="Motel">Мотель</label>
+            <input
+              type="checkbox"
+              name="Type of housing"
+              id="Apartments"
+              value="Apartments"
+              checked
+            /><label for="Apartments">Апартаменты</label>
           </fieldset>
           <fieldset>
             <legend>Стоимость в сутки, <span>₽:</span></legend>
-            <ul>
-              <li>
-                <input
-                  type="number"
-                  name="cost"
-                  id="min"
-                  value="min"
-                  placeholder="от 0"
-                  min="0"
-                  max="3000"
-                />
-                <label for="min">от 0</label>
-              </li>
-              <li>
-                <input
-                  type="number"
-                  name="cost"
-                  id="max"
-                  value="max"
-                  placeholder="до 3000"
-                  min="0"
-                  max="3000"
-                />
-                <label for="max">до 3000</label>
-              </li>
-            </ul>
+            <input
+              type="number"
+              name="cost"
+              id="min"
+              value="min"
+              placeholder="от 0"
+              min="0"
+              max="3000"
+            />
+            <label for="min">от 0</label>
+            <input
+              type="number"
+              name="cost"
+              id="max"
+              value="max"
+              placeholder="до 3000"
+              min="0"
+              max="3000"
+            />
+            <label for="max">до 3000</label>
             <div class="slider"></div>
             <!--Здесь будет двойной ползунок -->
             <button type="submit">Показать</button>
