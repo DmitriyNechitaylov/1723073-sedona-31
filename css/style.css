@@ -1,0 +1,158 @@
+:root {
+  --basic-black: #000000;
+  --basic-extra-black: #333333;
+  --basic-brown: #766357;
+  --darker-brown: #604e43;
+  --darkest-brown: #503e33;
+  --basic-grey-1: #cacaca;
+  --basic-grey-2: #ababab;
+  --basic-grey-3: #a9a9a9;
+  --basic-grey-4: #f2f2f2;
+  --basic-grey-5: #e5e5e5;
+  --basic-grey-6: #666666;
+  --basic-grey-7: #ebebeb;
+  --basic-grey-8: #bdbbbc;
+  --basic-grey-9: #eeeeee;
+  --basic-blue: #81b3d2;
+  --extra-blue: #23a9e1;
+  --darker-blue-1: #669ec0;
+  --darkest-blue-2: #5496bd;
+  --basic-white: #ffffff;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PT Sans"), url("/fonts/PTSans.woff2") format("woff2"),
+    url("/fonts/PTSans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("PT Sans"), url("/fonts/PTSans-Bold.woff2") format("woff2"),
+    url("/fonts/PTSans-Bold.woff") format("woff");
+}
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.site-navigation {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  list-style: none;
+}
+
+.site-navigation a:hover {
+  color: var(--basic-blue);
+}
+.site-navigation a:focus {
+  color: var(--basic-brown);
+}
+
+.site-navigation a:active {
+  color: var(--basic-black);
+}
+
+.greetings-title {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-size: 21px;
+}
+
+.features-title {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-container {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.wrapper {
+  background-color: var(--basic-grey-9);
+}
+
+.feature-title {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-size: 21px;
+}
+
+.features-minilist {
+  list-style: none;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.reservation-text {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.button-modal {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  background-color: var(--basic-brown);
+  border: none;
+}
+
+.button-modal:hover {
+  background-color: var(--darker-brown);
+}
+
+.button-modal:active {
+  background-color: var(--darkest-brown);
+}
+
+.footer-phone {
+  color: var(--basic-black);
+}
+
+.footer-contacts {
+  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-button {
+  background-color: var(--basic-blue);
+}
