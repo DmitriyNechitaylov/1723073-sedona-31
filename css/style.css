@@ -36,14 +36,14 @@
     url("/fonts/PTSans-Bold.woff") format("woff");
 }
 
-body {
+.page-body {
   min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: normal;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: var(--basic-white);
@@ -61,8 +61,8 @@ img {
 }
 
 .site-navigation {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
   list-style: none;
+  font-weight: bold;
 }
 
 .site-navigation a:hover {
@@ -77,12 +77,11 @@ img {
 }
 
 .greetings-title {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
   font-size: 21px;
+  font-weight: bold;
 }
 
 .features-title {
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
 }
@@ -92,8 +91,6 @@ img {
 }
 
 .feature-container {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 14px;
   line-height: 21px;
   background-color: var(--basic-blue);
   color: var(--basic-white);
@@ -104,27 +101,24 @@ img {
 }
 
 .feature-title {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
   font-size: 21px;
 }
 
 .features-minilist {
   list-style: none;
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
 }
 
 .reservation-text {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
   font-size: 30px;
   line-height: 24px;
+  font-weight: bold;
 }
 
 .button-modal {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
+  font-weight: bold;
   font-size: 21px;
-  text-align: center;
   color: var(--basic-white);
   vertical-align: middle;
   background-color: var(--basic-brown);
@@ -144,9 +138,9 @@ img {
 }
 
 .footer-contacts {
-  font-family: "PT Sans-Bold", Arial, sans-serif;
   font-size: 21px;
   line-height: 26px;
+  font-weight: bold;
 }
 
 .social-list {
