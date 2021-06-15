@@ -15,8 +15,8 @@
   --basic-grey-9: #eeeeee;
   --basic-blue: #81b3d2;
   --extra-blue: #23a9e1;
-  --darker-blue-1: #669ec0;
-  --darkest-blue-2: #5496bd;
+  --darker-blue: #669ec0;
+  --darkest-blue: #5496bd;
   --basic-white: #ffffff;
 }
 
@@ -76,7 +76,11 @@ img {
   color: var(--basic-black);
 }
 
-.greetings-title {
+.search-result {
+  line-height: 21px;
+}
+
+.bold-title {
   font-size: 21px;
   font-weight: bold;
 }
@@ -106,7 +110,6 @@ img {
 
 .features-minilist {
   list-style: none;
-  font-size: 14px;
   line-height: 21px;
 }
 
@@ -137,16 +140,60 @@ img {
   color: var(--basic-black);
 }
 
-.footer-contacts {
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
-}
-
 .social-list {
   list-style: none;
 }
 
 .social-button {
   background-color: var(--basic-blue);
+}
+
+.search-hotel {
+  background-color: var(--basic-blue);
+}
+
+.search-hotel-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--basic-black);
+}
+
+.sort a:hover {
+  color: var(--basic-blue);
+}
+.sort a:focus {
+  color: var(--basic-blue);
+}
+
+.sort a:active {
+  color: var(--basic-black);
+}
+
+.search-result-button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-white);
+}
+
+.find {
+  line-height: 26px;
+}
+
+.blue {
+  background-color: var(--basic-blue);
+}
+
+.brown {
+  background-color: var(--basic-brown);
+}
+
+.rating {
+  background-color: var(--basic-grey-4);
 }
